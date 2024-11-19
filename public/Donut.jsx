@@ -10,8 +10,8 @@ export function Model(props) {
   const { nodes, materials } = useGLTF('/donut.gltf')
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes.Donut.geometry} material={materials['Material.001']} position={[0, -0.024, 0]} scale={3.77} />
-      <mesh geometry={nodes.Icing.geometry} material={materials['Material.002']} position={[0.026, 0.328, 0.032]} scale={3.77} />
+      <mesh geometry={nodes.Donut.geometry} material={materials['Material.001']} position={[-0.087, -0.543, -0.115]} scale={8.15} />
+      <mesh geometry={nodes.Icing.geometry} material={materials['Material.002']} position={[0.036, -0.018, -0.012]} scale={8.15} />
     </group>
   )
 }
