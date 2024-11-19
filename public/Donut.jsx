@@ -11,7 +11,7 @@ export function Model(props) {
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Donut.geometry} material={materials['Material.001']} position={[0, -0.024, 0]} scale={3.77} />
-      <mesh geometry={nodes.Icing.geometry} material={materials['Material.002']} position={[0, 0.041, 0]} scale={3.77} />
+      <mesh geometry={nodes.Icing.geometry} material={materials['Material.002']} position={[0.026, 0.328, 0.032]} scale={3.77} />
     </group>
   )
 }
