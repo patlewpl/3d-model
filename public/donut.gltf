@@ -75,7 +75,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Torus",
+			"name":"Mesh",
 			"primitives":[
 				{
 					"attributes":{
@@ -89,7 +89,7 @@
 			]
 		},
 		{
-			"name":"Torus.001",
+			"name":"Mesh",
 			"primitives":[
 				{
 					"attributes":{
@@ -107,125 +107,125 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":429,
+			"count":1725,
 			"max":[
-				0.6713285446166992,
-				0.25018876791000366,
-				0.6604353785514832
+				0.6607620120048523,
+				0.24036408960819244,
+				0.6519381999969482
 			],
 			"min":[
-				-0.667380154132843,
-				-0.25,
-				-0.656738817691803
+				-0.6561570167541504,
+				-0.23812104761600494,
+				-0.6488860845565796
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":429,
+			"count":1725,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":429,
+			"count":1725,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":2304,
+			"count":9216,
 			"type":"SCALAR"
 		},
 		{
 			"bufferView":4,
 			"componentType":5126,
-			"count":855,
+			"count":28190,
 			"max":[
-				0.664103090763092,
-				0.24215112626552582,
-				0.650154709815979
+				0.6809489727020264,
+				0.25985288619995117,
+				0.6673620343208313
 			],
 			"min":[
-				-0.6567503213882446,
-				-0.23295104503631592,
-				-0.6482128500938416
+				-0.6746622920036316,
+				-0.23867718875408173,
+				-0.6656825542449951
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":5,
 			"componentType":5126,
-			"count":855,
+			"count":28190,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":6,
 			"componentType":5126,
-			"count":855,
+			"count":28190,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":7,
 			"componentType":5123,
-			"count":4638,
+			"count":161664,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":5148,
+			"byteLength":20700,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":5148,
-			"byteOffset":5148,
+			"byteLength":20700,
+			"byteOffset":20700,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":3432,
-			"byteOffset":10296,
+			"byteLength":13800,
+			"byteOffset":41400,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":4608,
-			"byteOffset":13728,
+			"byteLength":18432,
+			"byteOffset":55200,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteLength":10260,
-			"byteOffset":18336,
+			"byteLength":338280,
+			"byteOffset":73632,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":10260,
-			"byteOffset":28596,
+			"byteLength":338280,
+			"byteOffset":411912,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":6840,
-			"byteOffset":38856,
+			"byteLength":225520,
+			"byteOffset":750192,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":9276,
-			"byteOffset":45696,
+			"byteLength":323328,
+			"byteOffset":975712,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":54972,
+			"byteLength":1299040,
 			"uri":"donut.bin"
 		}
 	]
