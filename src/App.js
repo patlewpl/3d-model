@@ -25,14 +25,16 @@ function App() {
         </a>
       </header>
       <div id="donut">
-        <h3>To jeszcze nie jest ładne, ale działa!!</h3>
-        <Canvas>
-          <ambientLight />
-          <OrbitControls />
-          <Suspense fallback={null}>
-            <Donut />
-          </Suspense>
-        </Canvas>
+        <h3>Ładne i działa!!</h3>
+        <div className='donut'>
+          <Canvas camera={{ position: [-1.5, 0, 0] }}>
+            <ambientLight />
+            <OrbitControls />
+            <Suspense fallback={null}>
+              <Donut />
+            </Suspense>
+          </Canvas>
+        </div>
       </div>
       <div id="patryk">
         <img src={patryk} />
